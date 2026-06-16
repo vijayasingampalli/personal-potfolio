@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Vijaya Singampalli</title>
+  <meta name="description" content="Professional resume of Vijaya Singampalli, MERN Stack Developer & B.Tech IT Student.">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="resume-body">
+
+  <!-- Floating Navigation Controls for Interactive View -->
+  <div class="no-print" style="margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center;">
+    <a href="index.html" style="font-size: 0.875rem; font-weight: 600; color: var(--teal); display: inline-flex; align-items: center; gap: 8px;">
+      <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+    <button onclick="window.print()" class="resume-btn" style="margin-top: 0; padding: 8px 16px; font-size: 0.8rem;">
+      <i class="fas fa-print"></i> Print / Download PDF
+    </button>
+  </div>
+
+  <div class="resume-container">
+    
+    <!-- HEADER -->
+    <header class="resume-header">
+      <div>
+        <h1 style="font-size: 2.25rem; color: var(--text-lightest); margin-bottom: 5px;">Vijaya Singampalli</h1>
+        <h2 style="font-size: 1rem; color: var(--teal); font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase;">
+          Full Stack Developer | MERN Stack Enthusiast
+        </h2>
+      </div>
+      <div class="resume-contact-info">
+        <p><i class="far fa-envelope" style="color: var(--teal); margin-right: 8px;"></i> vijaya.singampalli@email.com</p>
+        <p><i class="fab fa-linkedin" style="color: var(--teal); margin-right: 8px;"></i> linkedin.com/in/vijaya-singampalli</p>
+        <p><i class="fab fa-github" style="color: var(--teal); margin-right: 8px;"></i> github.com/vijaya-singampalli</p>
+        <p><i class="fas fa-code" style="color: var(--teal); margin-right: 8px;"></i> leetcode.com/vijaya-singampalli</p>
+      </div>
+    </header>
+
+    <!-- EDUCATION SECTION -->
+    <section class="resume-section">
+      <h3 class="resume-section-title">Education</h3>
+      <div class="resume-item">
+        <div class="resume-item-title-row">
+          <span>Anil Neerukonda Institute of Technology & Sciences (ANITS)</span>
+          <span>2022 – 2026</span>
+        </div>
+        <div class="resume-item-subtitle-row">
+          <span>Bachelor of Technology in Information Technology</span>
+          <span>CGPA: 8.3 / 10.0</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="resume-section">
+      <h3 class="resume-section-title">Work Experience</h3>
+      <div class="resume-item">
+        <div class="resume-item-title-row">
+          <span>Millennium Software Solutions</span>
+          <span>2025 – Present</span>
+        </div>
+        <div class="resume-item-subtitle-row">
+          <span>MERN Stack Developer Intern</span>
+          <span>Visakhapatnam, AP</span>
+        </div>
+        <ul class="card-desc-list" style="margin-top: 10px;">
+          <li>Developed full-stack web applications utilizing MongoDB, Express.js, React.js, and Node.js.</li>
+          <li>Designed and documented RESTful APIs and connected them seamlessly to React frontends.</li>
+          <li>Implemented user authentication and state protection with JSON Web Tokens (JWT).</li>
+          <li>Engineered fully responsive, fluid grid layouts for web apps to ensure accessibility on all devices.</li>
+          <li>Collaborated in Agile environment structures, attending stand-ups and resolving codebase bugs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="resume-section">
+      <h3 class="resume-section-title">Key Projects</h3>
+      
+      <!-- BioMatch -->
+      <div class="resume-item">
+        <div class="resume-item-title-row">
+          <span>BioMatch – AI-Based Stem Cell Donor Matching System</span>
+          <span>2025</span>
+        </div>
+        <div class="resume-item-subtitle-row">
+          <span>Technologies: React.js, Node.js, Express.js, MongoDB, Python, XGBoost</span>
+        </div>
+        <ul class="card-desc-list" style="margin-top: 8px;">
+          <li>Created an automated system matching donor candidates to leukemia patients based on HLA gene configurations.</li>
+          <li>Integrated a Python machine learning service leveraging XGBoost to analyze compatibility probability values.</li>
+          <li>Designed responsive dashboards for hospital staff to log donor files and manage matches.</li>
+        </ul>
+      </div>
+
+      <!-- Chat Application -->
+      <div class="resume-item">
+        <div class="resume-item-title-row">
+          <span>Real-time Chat Application</span>
+          <span>2024</span>
+        </div>
+        <div class="resume-item-subtitle-row">
+          <span>Technologies: Socket.io, Node.js, MongoDB, Express.js, JWT</span>
+        </div>
+        <ul class="card-desc-list" style="margin-top: 8px;">
+          <li>Designed a low-latency chat hub allowing user rooms, typing indicators, and instant notification updates.</li>
+          <li>Leveraged Socket.io for persistent bi-directional web-socket communication.</li>
+          <li>Secured endpoints using bearer JWT tokens and encrypted database records.</li>
+        </ul>
+      </div>
+
+      <!-- Forkify -->
+      <div class="resume-item">
+        <div class="resume-item-title-row">
+          <span>Forkify Recipe Finder</span>
+          <span>2024</span>
+        </div>
+        <div class="resume-item-subtitle-row">
+          <span>Technologies: JavaScript (ES6+), Node.js, HTML5, CSS3</span>
+        </div>
+        <ul class="card-desc-list" style="margin-top: 8px;">
+          <li>Constructed a recipe search utility with fractional serving conversion math algorithms.</li>
+          <li>Integrated external food recipe REST APIs and stored user bookmark history in local browser data.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="resume-section">
+      <h3 class="resume-section-title">Technical Skills</h3>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; font-size: 0.9rem;">
+        <div>
+          <p style="margin-bottom: 8px;"><strong style="color: var(--text-lightest);">Languages:</strong> C, C++, Java, Python, JavaScript (ES6)</p>
+          <p style="margin-bottom: 8px;"><strong style="color: var(--text-lightest);">Web Technologies:</strong> HTML5, CSS3, React.js, Node.js, Express.js, Socket.io</p>
+          <p style="margin-bottom: 8px;"><strong style="color: var(--text-lightest);">Databases:</strong> MongoDB, PostgreSQL</p>
+        </div>
+        <div>
+          <p style="margin-bottom: 8px;"><strong style="color: var(--text-lightest);">Tools & Platforms:</strong> Git, GitHub, Postman, VS Code</p>
+          <p style="margin-bottom: 8px;"><strong style="color: var(--text-lightest);">Areas of Interest:</strong> Full Stack Development, Data Structures & Algorithms, AI, Machine Learning</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
